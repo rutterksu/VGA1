@@ -22,6 +22,6 @@ __t__ = elapsed time (T)
 __v__ = the mean pore velocity  
 __R__ = the _retardation factor_ (dim); defined as ![R = 1+ \frac{\rho_b K_d}{\theta}](https://render.githubusercontent.com/render/math?math=R%20%3D%201%2B%20%5Cfrac%7B%5Crho_b%20K_d%7D%7B%5Ctheta%7D)  
 __D__ = the apparent, or effective, dispersion coefficient (L<sup>2</sup> s<sup>-1</sup>); defined as ![D = \xi \left( \theta \right) D_0 + \lambda v^{n}](https://render.githubusercontent.com/render/math?math=D%20%3D%20%5Cxi%20%5Cleft(%20%5Ctheta%20%5Cright)%20D_0%20%2B%20%5Clambda%20v%5E%7Bn%7D)  
-__\xi(\theta)__ = the tortuosity factor; defined as ![\xi \left( \theta \right) = \frac{\theta^\frac{7}{3}}{\theta^2_s}](https://render.githubusercontent.com/render/math?math=%5Cxi%20%5Cleft(%20%5Ctheta%20%5Cright)%20%3D%20%5Cfrac%7B%5Ctheta%5E%5Cfrac%7B7%7D%7B3%7D%7D%7B%5Ctheta%5E2_s%7D)  
+![\xi(\theta)](https://render.githubusercontent.com/render/math?math=%5Cxi(%5Ctheta)) = the tortuosity factor; defined as ![\xi \left( \theta \right) = \frac{\theta^\frac{7}{3}}{\theta^2_s}](https://render.githubusercontent.com/render/math?math=%5Cxi%20%5Cleft(%20%5Ctheta%20%5Cright)%20%3D%20%5Cfrac%7B%5Ctheta%5E%5Cfrac%7B7%7D%7B3%7D%7D%7B%5Ctheta%5E2_s%7D)  
 
 
