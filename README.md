@@ -8,7 +8,7 @@ Email: rutter@ksu.edu
 Python implementation of Van Genutchen and Alves analytical __Solution 1__ to the 1-D convective-dispersive solute transport equation.
 
 ## Note
-Due to github's horrendous treatment of LaTeX, please see the accompanying Jupyter Notebook files for solution details.
+Due to github's horrendous treatment of LaTeX in-line math environments, please see the accompanying Jupyter Notebook files for solution details.
 
 # References
 
