@@ -9,15 +9,11 @@ Implementation of Van Genutchen and Alves analytical solution to the 1-D convect
 
 This function evaluates the solution:
 
-$$
-C(z,t)=C<sub>i</sub>+(C<sub>o</sub>-C<sub>i</sub>)A(z,t)
-$$
+![C(z,t)=C_{i}(C_{o}-C_{i})A(z,t)](https://render.githubusercontent.com/render/math?math=C(z%2Ct)%3DC_%7Bi%7D(C_%7Bo%7D-C_%7Bi%7D)A(z%2Ct))
 
 where
 
-$$
-A(z,t) = \frac{1}{2} erfc \left( \frac{Rz</sub>-vt}{\sqrt{4DRt}} \right) + \frac{1}{2} exp \left( \frac{vz}{D} \right) erfc \left( \frac{Rz+vt}{\sqrt{4DRt}} \right)
-$$
+![A(z,t) = \frac{1}{2} \text{erfc} \left( \frac{Rz-vt}{\sqrt{4DRt}} \right) + \frac{1}{2} \text{exp} \left( \frac{vz}{D} \right) \text{erfc} \left( \frac{Rz+vt}{\sqrt{4DRt}} \right)](https://render.githubusercontent.com/render/math?math=A(z%2Ct)%20%3D%20%5Cfrac%7B1%7D%7B2%7D%20%5Ctext%7Berfc%7D%20%5Cleft(%20%5Cfrac%7BRz-vt%7D%7B%5Csqrt%7B4DRt%7D%7D%20%5Cright)%20%2B%20%5Cfrac%7B1%7D%7B2%7D%20%5Ctext%7Bexp%7D%20%5Cleft(%20%5Cfrac%7Bvz%7D%7BD%7D%20%5Cright)%20%5Ctext%7Berfc%7D%20%5Cleft(%20%5Cfrac%7BRz%2Bvt%7D%7B%5Csqrt%7B4DRt%7D%7D%20%5Cright))
 
 where
 
